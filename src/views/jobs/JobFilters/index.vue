@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { reactive, computed, onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
@@ -33,7 +33,7 @@ const filterItems = computed(() => [
   },
 ])
 
-function change(value, key) {
+function change(value: string, key: 'title' | 'location' | 'category'): void {
   emit('change-query', { [key]: value })
 }
 

@@ -7,7 +7,7 @@ import router from './router'
 import { i18n } from './locales'
 import helpers from './utils/helpers';
 import mediaManager from './utils/mediaManager'
-import GlobalComponents from '@/utils/global.components';
+import uiComponents from '@/utils/global.components';
 import './assets/scss/main.scss';
 
 const app = createApp(App)
@@ -19,6 +19,6 @@ app
 .use(createPinia())
 .use(router)
 .use(i18n)
-.use(GlobalComponents)
+.use(uiComponents)
  
 app.mount('#app')

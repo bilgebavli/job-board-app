@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useJobsStore } from '@/stores/jobs'
@@ -9,6 +9,10 @@ import JobNoList from './JobNoList'
 defineOptions({
   name: 'Jobs',
 })
+
+type QueryParams = {
+  [key: string]: string,
+}
 
 const limit = ref(20)
 const page = ref(1)
@@ -58,7 +62,7 @@ function changePagination({ pageCount, pageNumber }) {
   changeQuery({ page: page.value, limit: limit.value })
 }
 
-async function setRouteQuery(value) {
+async function setRouteQuery(value: QueryParams): Promise<void> {
   const filteredQueryParams = { ...route.query, ...value }
 
   Object.keys(filteredQueryParams).forEach((key) => {
@@ -73,7 +77,7 @@ async function setRouteQuery(value) {
   })
 }
 
-async function changeQuery(value) {
+async function changeQuery(value: QueryParams): Promise<void> {
   try {
     showAppLoading()
     await setRouteQuery(value)
