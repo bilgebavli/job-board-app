@@ -5,7 +5,7 @@ This project is a horse racing game implemented using Vue.js and Pinia for state
 ## Technologies Used
 - Vue.js 3 + Vite,
 - Pinia for state management,
-- SSSS
+- SCSS
 - Typescript
 
 ## Usage
