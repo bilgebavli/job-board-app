@@ -1,6 +1,6 @@
 # Vue.js Job Board App
 
-This project is a horse racing game implemented using Vue.js and Pinia for state management. The game randomly selects 20 horses with different colors and conditions ranging from 1 to 100. The race consists of 6 runs, each run starting after the previous one. Horses are animated during the race, and the results of each run are displayed in real-time.
+This project is a simple and modern job board application where users can browse job listings, filter them by job title, location, and category, and view detailed information about each job.
 
 ## Technologies Used
 - Vue.js 3 + Vite,
