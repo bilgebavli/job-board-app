@@ -1,0 +1,40 @@
+{
+  "errors": {
+    "noJobItem": "Sayfa Bulunamadı"
+  },
+  "general": {
+    "anErrorOccurred": "Bir hata oluştu",
+    "next": "Sonraki",
+    "onEveryPage": "Her sayfada",
+    "prev": "Önceki",
+    "showResults": "sonuç göster"
+  },
+  "jobs": {
+    "description": {
+      "noJobItem": "Herhangi bir iş ilanı bulunamadı"
+    },
+    "detail": {
+      "continue": "Devam Et",
+      "description": "Açıklama",
+      "name": "İlan Detayı",
+      "properties": {
+        "color": "Renk",
+        "fuel": "Yakıt Tipi",
+        "gear": "Vites Tipi",
+        "km": "Kilometre",
+        "year": "Yıl"
+      },
+      "sellerContactInformation": "Satıcı İletişim Bilgileri",
+      "userInfo": {
+        "nameSurname": "Adı Soyadı",
+        "phone": "Telefon"
+      }
+    },
+    "filterItems": {
+      "design": "Tasarım",
+      "development": "Geliştirme",
+      "marketing": "Pazarlama"
+    },
+    "name": "İş İlanları"
+  }
+}
