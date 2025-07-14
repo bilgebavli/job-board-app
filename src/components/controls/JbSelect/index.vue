@@ -2,7 +2,7 @@
   <select class="form-select" v-model="selectValue" @change="change">
     <option :value="null" disabled>Select Category</option>
     <option v-for="(item, index) of items" :key="index" :value="item.value">
-      {{ item.name }}
+      {{ item.value }}
     </option>
   </select>
 </template>

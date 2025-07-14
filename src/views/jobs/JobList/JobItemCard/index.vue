@@ -47,7 +47,7 @@ const props = defineProps({
         bg-color="white"
         text-color="green"
         outline
-        >{{ item }}</jb-button
+        >{{ $t(`jobs.categories.${item}`) }}</jb-button
       >
     </div>
   </div>

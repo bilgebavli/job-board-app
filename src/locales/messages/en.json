@@ -3,37 +3,27 @@
     "pageNotFound": "Page Not Found"
   },
   "general": {
-    "anErrorOccurred": "An error occurred",
     "next": "Next",
     "onEveryPage": "On every page",
     "prev": "Prev",
     "showResults": "show results"
   },
   "jobs": {
+    "categories": {
+      "design": "Design",
+      "development": "Development",
+      "marketing": "Marketing"
+    },
     "description": {
       "noJobItem": "No job listings found"
     },
     "detail": {
-      "continue": "Continue",
-      "description": "Description",
-      "name": "Advert Detail",
-      "properties": {
-        "color": "Color",
-        "fuel": "Fuel Type",
-        "gear": "Gear Type",
-        "km": "Kilometer",
-        "year": "Year"
-      },
-      "sellerContactInformation": "Seller Contact Information",
-      "userInfo": {
-        "nameSurname": "Name Surname",
-        "phone": "Phone"
-      }
+      "name": "Job Detail"
     },
-    "filterItems": {
-      "design": "Design",
-      "development": "Development",
-      "marketing": "Marketing"
+    "filters": {
+      "category": "Category",
+      "location": "Location",
+      "title": "Job title"
     },
     "name": "Jobs"
   }

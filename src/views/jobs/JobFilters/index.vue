@@ -20,15 +20,15 @@ const filters = reactive({
 
 const filterItems = computed(() => [
   {
-    name: t('jobs.filterItems.design'),
+    name: t('jobs.categories.design'),
     value: 'design',
   },
   {
-    name: t('jobs.filterItems.development'),
+    name: t('jobs.categories.development'),
     value: 'development',
   },
   {
-    name: t('jobs.filterItems.marketing'),
+    name: t('jobs.categories.marketing'),
     value: 'marketing',
   },
 ])
@@ -52,14 +52,14 @@ onBeforeMount(() => {
       <div class="col-12 col-sm-4 mb-3 mb-sm-0">
         <jb-input
           v-model="filters.title"
-          placeholder="Title"
+          :placeholder="$t('jobs.filters.title')"
           @input="change($event, 'title')"
         ></jb-input>
       </div>
       <div class="col-12 col-sm-4 mb-3 mb-sm-0">
         <jb-input
           v-model="filters.location"
-          placeholder="Location"
+          :placeholder="$t('jobs.filters.location')"
           @input="change($event, 'location')"
         ></jb-input>
       </div>

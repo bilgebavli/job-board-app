@@ -1,39 +1,29 @@
 {
   "errors": {
-    "noJobItem": "Sayfa Bulunamadı"
+    "pageNotFound": "Sayfa Bulunamadı"
   },
   "general": {
-    "anErrorOccurred": "Bir hata oluştu",
     "next": "Sonraki",
     "onEveryPage": "Her sayfada",
     "prev": "Önceki",
     "showResults": "sonuç göster"
   },
   "jobs": {
+    "categories": {
+      "design": "Tasarım",
+      "development": "Geliştirme",
+      "marketing": "Pazarlama"
+    },
     "description": {
       "noJobItem": "Herhangi bir iş ilanı bulunamadı"
     },
     "detail": {
-      "continue": "Devam Et",
-      "description": "Açıklama",
-      "name": "İlan Detayı",
-      "properties": {
-        "color": "Renk",
-        "fuel": "Yakıt Tipi",
-        "gear": "Vites Tipi",
-        "km": "Kilometre",
-        "year": "Yıl"
-      },
-      "sellerContactInformation": "Satıcı İletişim Bilgileri",
-      "userInfo": {
-        "nameSurname": "Adı Soyadı",
-        "phone": "Telefon"
-      }
+      "name": "İş İlanı Detayı"
     },
-    "filterItems": {
-      "design": "Tasarım",
-      "development": "Geliştirme",
-      "marketing": "Pazarlama"
+    "filters": {
+      "category": "Kategori",
+      "location": "Konum",
+      "title": "İş başlığı"
     },
     "name": "İş İlanları"
   }
