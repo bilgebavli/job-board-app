@@ -1,18 +1,22 @@
-# job-board-app
+# Vue.js Job Board App
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a horse racing game implemented using Vue.js and Pinia for state management. The game randomly selects 20 horses with different colors and conditions ranging from 1 to 100. The race consists of 6 runs, each run starting after the previous one. Horses are animated during the race, and the results of each run are displayed in real-time.
 
-## Recommended IDE Setup
+## Technologies Used
+- Vue.js 3 + Vite,
+- Pinia for state management,
+- SSSS
+- Typescript
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Usage
+Browse Jobs: View all job listings on the homepage.
+Filter Jobs: Use the search bar to filter jobs by title, location, or category.
+View Job Details: Click on any job to navigate to its dynamic detail page.
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Project Structure
+- components: Contains Vue components for different parts of the application.
+- store: Contains Pinia store modules for managing application state.
+- styles: Contains CSS files for styling the application.
 
 ## Project Setup
 
@@ -62,3 +66,6 @@ npm run test:e2e -- --debug
 ```sh
 npm run lint
 ```
+
+###  Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request with any improvements or features you'd like to add.
